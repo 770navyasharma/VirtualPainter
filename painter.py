@@ -3,6 +3,10 @@ import cv2
 import mediapipe as mp
 import numpy as np
 from Handtracker import *
+
+#Selection is done with two fingers (index and middle)
+#Drawing is done with index finger only
+
 ######################
 brushthickness = 3
 eraserthickness = 50
