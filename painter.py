@@ -86,7 +86,7 @@ while True:
                         
             #5) drawing with one finger up
             if fingers[1] and fingers[2]==False:
-                cv2.circle(image, (x1, y1), 15, drawcolor, cv2.FILLED)
+                cv2.circle(image, (x1, y1), 5, drawcolor, cv2.FILLED)
                 print("Drawing Mode")
                 if xp == 0 and yp == 0:
                     xp , yp = x1,x2  
